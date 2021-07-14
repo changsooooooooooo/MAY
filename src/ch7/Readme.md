@@ -25,6 +25,7 @@ Long leftResult = leftTask.join();
 for(int splitPos=currentSize/2+currentChar; splitPos<string.length(); splitPos++)
 ```
 
+
 -> spliterator 는 반으로 나누는게 국룰!
 
 -> 왜 spliterator 가 병렬에 좋은거지?
