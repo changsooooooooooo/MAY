@@ -26,3 +26,7 @@ for(int splitPos=currentSize/2+currentChar; splitPos<string.length(); splitPos++
 ```
 
 -> spliterator 는 반으로 나누는게 국룰!
+
+-> 왜 spliterator 가 병렬에 좋은거지?
+
+- 작업훔치기 : 유휴 상태에 접어드는 시점이 비슷하면 바로바로 채워질 수 있다! -> 크기가 유사하면 끝나는 시기도 유사하겠지!
