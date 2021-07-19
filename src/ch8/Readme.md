@@ -1,4 +1,4 @@
-```aidl
+```
 
 for(Transaction transaction : transactions){
     if(Character.isDigit(transaction.getReferenceCode().charAt(0))){
@@ -9,7 +9,7 @@ for(Transaction transaction : transactions){
 
 -> 왜 에러발생 : transaction은 iterator type 이기에
 
-```aidl
+```
 friendsToMovies.computeIfAbsent("Raphael", name->new ArrayList<>())
                 .add("Star Wars");
                 
