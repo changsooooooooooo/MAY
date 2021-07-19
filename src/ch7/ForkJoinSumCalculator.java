@@ -1,6 +1,5 @@
 package ch7;
 
-import java.util.HashMap;
 import java.util.concurrent.RecursiveTask;
 
 public class ForkJoinSumCalculator extends RecursiveTask<Long> {
