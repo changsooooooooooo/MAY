@@ -1,4 +1,4 @@
-```aidl
+```
 ForkJoinSumCalculator leftTask = new ForkJoinSumCalculator(numbers, start, start+(int)length/2);
 leftTask.fork();
 ForkJoinSumCalculator rightTask = new ForkJoinSumCalculator(numbers, start+(int)length/2, length);
@@ -7,7 +7,7 @@ Long leftResult = leftTask.join();
 
 ```
 
-```aidl
+```
 ForkJoinSumCalculator leftTask = new ForkJoinSumCalculator(numbers, start, start+(int)length/2);
 leftTask.fork();
 ForkJoinSumCalculator rightTask = new ForkJoinSumCalculator(numbers, start+(int)length/2, length);
@@ -21,7 +21,7 @@ Long leftResult = leftTask.join();
     -> 왜냐하면 fork 후에 join 하면 남는 thread 가 생길 수 있는데 그 자원을 활용하지 못해!  
 
 
-```aidl
+```
 for(int splitPos=currentSize/2+currentChar; splitPos<string.length(); splitPos++)
 ```
 
