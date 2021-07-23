@@ -14,6 +14,9 @@ interface A{
 }
 
 interface B extends A {
+    default void hello(){
+        System.out.println("Hello from B");
+    }
 }
 
 interface C extends A {
@@ -26,4 +29,8 @@ class D implements B, C{
         new D().hello();
     }
 
+    @Override
+    public void hello() {
+
+    }
 }
